@@ -9,7 +9,8 @@ class School
   def add_student(student, grade)
     @student = student 
     @grade = grade 
-    @roster[grade] = [] 
+    s_array = []
+    @roster[grade] = s_array.select 
     @roster[grade] << student 
   end
   
