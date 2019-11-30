@@ -14,7 +14,7 @@ class School
     #   @roster[grade] << student 
     # end 
     @roster[grade] ||= [] 
-    @roster[grade] = student 
+    @roster[grade] << student 
   end
   
   def grade(grade) 
