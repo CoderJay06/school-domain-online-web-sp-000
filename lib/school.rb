@@ -9,7 +9,7 @@ class School
   def add_student(student, grade)
     @student = student 
     @grade = grade 
-    @roster[grade] = student.to_a 
+    @roster[grade] = student.split 
     # @roster[grade] << student 
   end
   
