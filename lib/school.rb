@@ -9,7 +9,7 @@ class School
   def add_student(student, grade)
     @student = student 
     @grade = grade 
-    @roster[grade].map { |grade, student| @roster[grade] << student }
+    @roster[grade].map { |grade, student| grade << student }
   end
   
 end 
