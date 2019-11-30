@@ -10,7 +10,7 @@ class School
     @student = student 
     @grade = grade 
     s_array = []
-    @roster[grade] = s_array.select{
+    @roster[grade] = []
     @roster[grade] << student 
   end
   
