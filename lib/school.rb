@@ -9,7 +9,8 @@ class School
   def add_student(student, grade)
     @student = student 
     @grade = grade 
-    @roster[grade].collect { |grade, student| grade << student }
+    @roster[grade] = [] 
+    @roster[grade] << student 
   end
   
 end 
